@@ -1,8 +1,8 @@
 <?php
 $servidor = "localhost";
-$usuario = "id9193275_matheus";
-$senha = "99083341";
-$dbname = "id9193275_tarefas";
+$usuario = "DATABASE_USER";
+$senha = "DATABASE_PASSWORD";
+$dbname = "DATABASE_NAME";
 
 //Criando a conexao
 $mysqli = mysqli_connect($servidor, $usuario, $senha, $dbname);
